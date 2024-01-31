@@ -414,6 +414,11 @@ header{
     
 }
 
+.contact-container-section a:hover{
+    color: #EC2E57;
+    text-decoration: underline;
+}
+
 /* Footer Styling*/
 
 footer{
