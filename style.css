@@ -382,7 +382,6 @@ header{
     background-color: #6edada;
 }
 
-
 /* Contact Styling*/
 
 .contact-container{
@@ -422,21 +421,3 @@ footer{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
-
-
-/*
-.btnd{
-    border: 1px solid #DF678C;
-    width: 180px;
-    padding: 1em 2em ;
-    border-radius: 30px;
-    color: black;
-    font-size: 14px;
-    font-weight: 600; 
-}
-.nav-links li a:hover{
-    color: #EC2E57;
-    text-decoration: underline;
-}
-flex-wrap: wrap;
