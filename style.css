@@ -53,7 +53,8 @@ nav{
 }
 
 .logo-img{
-    height: 23px;
+    height: 30px;
+    margin-top: 5px;
 }
 
 .logo-name{
@@ -76,11 +77,11 @@ nav{
 }
 
 .logo-name:hover{
-    color: red;
+    color: #EC2E57;
 }
 
 .nav-links li a:hover{
-    color: red;
+    color: #EC2E57;
     text-decoration: underline;
 }
 
@@ -99,6 +100,7 @@ header{
     display: flex;
     justify-content: space-around;
     gap: 50px;
+    margin-bottom: 100px;
 }
 
 .header-left{
@@ -114,7 +116,7 @@ header{
 }
 
 .header-right{
-    display: flex;   
+     
 }
 
 .header-right p{
@@ -126,9 +128,8 @@ header{
 .header-name1{
     margin-left: 20px;
     font-size: 50px;
-    color: red; 
+    color:#EC2E57; 
     font-weight: 400;
-
 }
 
 .header-name2{
@@ -144,6 +145,298 @@ header{
 }
 
 .header-name3{
-    color: red; 
+    color: #EC2E57; 
 }
 
+.header-contact{
+    display: flex;
+    grid-template-columns: 1fl 1fl;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin-left: 20px;
+}
+
+.header-resume-btn{
+    display: flex;
+    height: 40px;
+    width: 250px;
+    background-color:#1AABAC ;
+    font-size: 20px;
+    color: #E6F3F1;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px; 
+}
+
+.header-social{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-right: 100px;
+}
+
+.header-social-icon{
+    height: 40px;
+    justify-content: center;
+}
+
+.header-resume-btn:hover{
+    background-color: #6edada;
+}
+
+/* Aboout Styling*/
+
+.globle-title{
+  
+    font-size: 50px;
+    color: #EC2E57;
+}
+
+.globle-underline{
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.about-container{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+    margin-bottom: 80px;
+    padding: 10px;
+}
+
+.globle-header{
+    font-size: 30px;
+    font-weight: 800;
+    color: #4A4A4A;
+    margin-top: 15px;
+}
+
+.about-container div h3{
+    margin-top: 15px;
+    font-size: 20px;  
+    font-weight: 200;
+}
+
+.about-box{
+    margin-top: 25px;
+    border: 2px solid #1AABAC;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    /*height: 180px;*/
+}
+
+.globle-box-icon{
+    
+    height: 50px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.globle-box-about{
+    display: flex;
+    margin-left: 10px;
+}
+
+.about-box-container{
+    display: grid;
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+
+/* experience Styling*/
+
+.experience-container{
+    padding-top:10px ;
+    background-color:#E6F3F1 ;
+    margin-bottom: 80px;
+}
+
+.experience-container-section{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    gap: 15px;
+    padding-bottom: 50px;
+    
+}
+
+.experience-container-section-FED{
+    padding: 15px; 
+}
+.experience-container-section-BED{
+    border-left: 2px solid #1AABAC;
+    padding: 15px; 
+}
+
+.experience-container-section-heading{
+    display: flex;
+    margin-left: 10px;
+}
+
+.expereience-bar{
+    width: 100%;
+    background-color: #CCCCCC; 
+}
+
+.skills {
+    text-align: right;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.html {
+    width: 50%; 
+    background-color:  #1AABAC;
+}
+
+.css {
+    width: 40%; 
+    background-color:  #1AABAC;
+}
+
+.Javascript {
+    width: 30%; 
+    background-color:  #1AABAC;
+}
+
+.github {
+    width: 30%; 
+    background-color:  #1AABAC;
+}
+
+.experience-container-section h3{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+/* project Styling*/
+
+.project-container{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0,1fr));
+    gap: 15px;
+    padding: 10px;
+    margin-bottom: 80px;
+}
+
+.project-container-box{
+    margin-top: 25px;
+    border: 2px solid #1AABAC;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+.project-container div h3{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.project-icon{
+    width: 90%;
+    align-items: center;
+}
+
+.projects-button{
+    display: flex;
+    justify-content: space-around;
+}
+
+.projects-button-GH{
+    display: flex;
+    height: 40px;
+    width: 120px;
+    font-size: 20px;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #1AABAC;
+    border-radius: 5px; 
+}
+
+.projects-button-LD{
+    display: flex;
+    height: 40px;
+    width: 115px;
+    background-color:#1AABAC ;
+    font-size: 20px;
+    color: #E6F3F1;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px; 
+}
+
+.projects-button-LD:hover{
+    background-color: #6edada;
+}
+
+.projects-button-GH:hover{
+    background-color: #6edada;
+}
+
+
+/* Contact Styling*/
+
+.contact-container{
+    padding-top:10px ;
+    background-color:#E6F3F1 ;
+    padding-bottom: 50px;
+}
+
+.contact-container-section{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #1AABAC;
+    border-radius: 5px;
+    align-items: center;
+    padding: 10px;
+    margin-top: 25px;
+}
+
+.contact-container-section h3{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 200;   
+}
+
+.contact-container-section div{
+    display: flex;
+    gap: 15px; 
+    
+}
+
+/* Footer Styling*/
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+/*
+.btnd{
+    border: 1px solid #DF678C;
+    width: 180px;
+    padding: 1em 2em ;
+    border-radius: 30px;
+    color: black;
+    font-size: 14px;
+    font-weight: 600; 
+}
+.nav-links li a:hover{
+    color: #EC2E57;
+    text-decoration: underline;
+}
+flex-wrap: wrap;
